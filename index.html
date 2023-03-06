@@ -11,18 +11,28 @@
     <title>The Office</title>
 </head>
 <body>
-    <section>
-        <div class="board">
-            <h1>The <br> Office</h1>
-            <div class="box">
-                <div class="small_box">
-                    <img id="briefcase" src="./images/White_stickfigure.png" style="height: 10rem;">
-                    <img id="table" src="./images/White_on_table.png" style="height: 10rem;">
+    <div id="under">
+        <section id="section1">
+            <div id="board">
+                <h1>The <br> Office</h1>
+                <div class="box">
+                    <div class="small_box">
+                        <img id="briefcase" src="./images/White_stickfigure.png" style="height: 10rem;">
+                        <img id="table" src="./images/White_on_table.png" style="height: 9rem;">
+                        <input id="button" type="button" value="PLAY" onclick="play()">
+                    </div>
                 </div>
             </div>
-        </div>
-        <button>Play</button>
-    </section>
+        </section>
+        <section id="section2">
+            <div id="video">
+                <video id="my_video">
+                    <source src="./images/Y2Mate.is - The Office intro-0GXjAMnv1zs-240p-1654728063785.mp4">
+                </video>
+            </div>
+        </section>
+    </div>
+    <audio id="audio" src="./intro.mp3"></audio>
+    <script src="./script.js"></script>
 </body>
-<script src="./script.js"></script>
 </html>
